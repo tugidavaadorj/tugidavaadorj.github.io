@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Recursion Fractal Trees</title>
+    <LINK href="trees/treestyle.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body onload=draw();>
+      <!-- Nav -->
+    <nav id="nav">
+        <ul class="container">
+            <li><a href="index.html#top">Top</a></li>
+            <li><a href="index.html#work">Experience</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="https://linkedin.com/in/tuguldurd/ " class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/tugidavaadorj" class="icon brands fa-github"><span class="label">Github</span></a></li>
+        </ul>
+    </nav>
+    <canvas id="canvas"></canvas>
+    <div class="slidecontainer">
+        <p class="tree">Angle of Right Branches: <span id="demoRight"></span></p>
+        <input type="range" min="0" max="90" value="45" class="slider" id="rightRange">
+        <p class="tree">Angle of Left Branches: <span id="demoLeft"></span></p>
+        <input type="range" min="0" max="90" value="45" class="slider" id="leftRange">
+      </div>
+    <script src = "trees/tree.js"> </script>
+  </body>
+</html>
